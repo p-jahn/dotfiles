@@ -1,0 +1,23 @@
+[user]
+	name = "Patrick Jahn"
+	email = "33724206+p-jahn@users.noreply.github.com"
+	signingkey = "~/.ssh/ssh_signing.pub"
+[url "ssh://git@github.com/"]
+	insteadOf = "https://github.com/"
+[core]
+	excludesFile = "~/.gitignore"
+[init]
+	defaultBranch = "main"
+[gpg]
+	format = "ssh"
+[commit]
+	gpgsign = "true"
+[alias]
+	aa = "add ."
+	amend = "commit --amend --no-edit"
+	fp = "push --force"
+	aa-a-fp = "!git aa && git amend && git fp"
+	l = "log --format=\"%Cblue%h %Cgreen%s %Creset%an (%aI)\""
+[push]
+	autoSetupRemote = true
+
