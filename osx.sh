@@ -14,7 +14,7 @@ echo "Host *
 	IdentityAgent $SSH_AUTH_SOCK" >> ~/.ssh/config
 # zsh specific, everything should™ pick up the general one but some
 # (like git signing) don't
-echo "export SSH_AUTH_SOCK="$SSH_AUTH_SOCK >> ~/.zshrc
+echo "export SSH_AUTH_SOCK="$SSH_AUTH_SOCK >> ~/.zshrc_ext
 ###
 # /Secretive setup
 ###
