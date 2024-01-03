@@ -20,4 +20,5 @@
 	l = "log --format=\"%Cblue%h %Cgreen%s %Creset%an (%aI)\""
 [push]
 	autoSetupRemote = true
-
+[includeIf "gitdir:~/dev/work/"]
+	path = .gitconfig-work
