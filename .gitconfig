@@ -22,3 +22,6 @@
 	autoSetupRemote = true
 [includeIf "gitdir:~/dev/work/"]
 	path = .gitconfig-work
+[includeIf "gitdir:~/go/"]
+	path = .gitconfig-work
+

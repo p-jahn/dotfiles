@@ -91,4 +91,6 @@ eval "$(starship init zsh)"
 alias vim="nvim"
 alias zshconfig="vim ~/.zshrc"
 alias ll="ls -la"
+alias k="kubectl"
+alias kc="kubectx"
 
