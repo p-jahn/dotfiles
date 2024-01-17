@@ -17,7 +17,7 @@
 	amend = "commit --amend --no-edit"
 	fp = "push --force"
 	aa-a-fp = "!git aa && git amend && git fp"
-	l = "log --format=\"%Cblue%h %Cgreen%s %Creset%an (%aI)\""
+	l = "log --format=\"%Cblue%h %Cgreen%s %Creset%cn (%cI)\""
 [push]
 	autoSetupRemote = true
 [includeIf "gitdir:~/dev/work/"]

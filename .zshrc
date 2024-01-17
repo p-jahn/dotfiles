@@ -86,6 +86,7 @@ eval "$(starship init zsh)"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
+export PATH="$HOME/go/bin:$PATH"
 
 # ALIAS
 alias vim="nvim"
