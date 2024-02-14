@@ -18,6 +18,7 @@
 	fp = "push --force-with-lease"
 	aa-a-fp = "!git aa && git amend && git fp"
 	l = "log --format=\"%Cblue%h %Cgreen%s %Creset%cn (%cI)\""
+	t = "log --tags --simplify-by-decoration --format=\"%Cblue%h %Cblue%d %Cgreen%s %Creset%an (%cI)\""
 [push]
 	autoSetupRemote = true
 [rerere]
